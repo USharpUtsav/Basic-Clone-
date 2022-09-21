@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: aquamarine;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 53px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 45px;
+    padding: 0 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    width: 82%;
+    margin: 16px auto;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url('simone-impei-RLHtsH4_Blw-unsplash.jpg');
+    background-position: bottom right;
+    background-size: 1150px;
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    position: sticky;
+    height: 103px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#Progress{
+    width: 80vw;
+    margin: 11px;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    color: black;
+    font-size: small;
+    margin: 12px 0px;
+    justify-content: space-between;
+    border-radius: 13px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 23px;
+}
+
+.songItem span{
+    padding:10px;
+}
+
+.timestamp{
+    margin: 0 2px;
+}
+
+.songlistplay i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    margin: -38px 7px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
+}
